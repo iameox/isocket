@@ -1,1 +1,1 @@
-export { IServerRequest } from 'servers/requests/IServerRequest';
+export { IServerRequest } from './IServerRequest';
