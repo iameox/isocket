@@ -1,16 +1,12 @@
 {
     "name": "isocket",
-    "version": "0.2.1",
+    "version": "0.3.0",
     "description": "Route-enabled stateful WebSocket abstraction layer",
     "bugs": {
         "url": "https://github.com/iameox/isocket/issues"
     },
     "license": "MIT",
     "author": "Yann Grandgirard",
-    "files": [
-        "lib"
-    ],
-    "repository": "github:iameox/isocket",
     "exports": {
         ".": "./lib/index.js",
         "./servers": "./lib/servers/index.js"
@@ -23,6 +19,10 @@
             ]
         }
     },
+    "files": [
+        "lib"
+    ],
+    "repository": "github:iameox/isocket",
     "scripts": {
         "clean": "rimraf lib",
         "build": "tsc && tsc-alias"
