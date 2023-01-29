@@ -42,7 +42,7 @@ export class Socket implements ISocket {
         }
     }
 
-    public async close(): Promise<void> {
+    public close(): void {
         this._socket.close();
     }
 
