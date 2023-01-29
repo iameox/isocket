@@ -1,8 +1,8 @@
 export interface IServerRequest {
-    readonly path: string;
+    path: string;
 
-    readonly parameters: {
-        readonly path: Map<string, Set<string>>;
-        readonly query: Map<string, Set<string>>;
+    parameters: {
+        path: Map<string, string>;
+        query: Map<string, Set<string>>;
     };
 }
